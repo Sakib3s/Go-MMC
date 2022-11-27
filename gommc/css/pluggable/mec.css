@@ -1,0 +1,126 @@
+/* ==================== ## Modern Event Calendar adddon ==================== */
+
+.tpc-mec-events .mec__single-event {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 90px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px
+}
+
+@media only screen and (max-width: 575px) {
+    .tpc-mec-events .mec__single-event {
+        display: block;
+        text-align: center
+    }
+}
+.tpc-mec-events .mec__single-event .event-image {
+    flex-shrink: 0
+}
+.tpc-mec-events .mec__single-event .event-image img {
+    border-radius: 100%;
+    max-width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+.tpc-mec-events .mec__single-event .event-content {
+    flex-grow: 1;
+    padding-left: 30px;
+    max-width: 320px
+}
+@media only screen and (max-width: 575px) {
+    .tpc-mec-events .mec__single-event .event-content {
+        padding-left: 0;
+        padding-top: 25px
+    }
+}
+.tpc-mec-events .mec__single-event .event-content .date {
+    color: var(--gommc-primary-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+.tpc-mec-events .mec__single-event .event-content .course__title {
+    font-size: 18px;
+    font-weight: var(--gommc-header-font-weight);
+    margin-top: 5px;
+}
+.tpc-mec-events .mec__single-event .event-content p {
+    margin-top: 5px
+}
+.tpc-mec-events .mec__single-event .event-content i {
+    font-size: 14px;
+}
+/* == Style 1== */
+
+.tpc-mec-events .event__date {
+    font-size: 15px;
+}
+.tpc-mec-events .event__date i {
+    color: var(--gommc-primary-color);
+    font-weight: var(--gommc-header-font-weight);
+    font-size: 14px;
+    margin-right: 5px;
+}
+/* == Star new styles for theme compatibility */
+
+.mec-wrap .mec-event-footer .mec-booking-button {
+    font-weight: 600;
+}
+.mec-events-meta-group-countdown .countdown-w span {
+    font-weight: var(--gommc-header-font-weight);
+}
+.mec-load-more-button {
+    font-weight: var(--gommc-header-font-weight);
+}
+.mec-single-event .mec-event-social li.mec-event-social-icon a {
+    padding: inherit;
+    border-radius: 100px;
+}
+.mec-wrap .mec-search-form .mec-date-search select:last-child {
+    width: auto;
+}
+.mec-wrap .mec-search-form .select__field {
+    width: auto;
+    margin-right: 10px;
+}
+.mec-wrap .mec-search-form .mec-date-search select:last-child {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 10px;
+}
+.mec-wrap .mec-search-form .select__field:before {
+    right: -15px;
+    top: -7px;
+}
+.mec-slider-t1-wrap .mec-owl-theme .owl-nav .owl-next, .mec-slider-t1-wrap .mec-owl-theme .owl-nav .owl-prev {
+    line-height: 28px;
+}
+.mec-wrap p {
+    font-size: initial;
+}
+.mec-wrap .flip-clock-divider .flip-clock-label {
+    bottom: -2em;
+}
+.mec-wrap .flip-clock-wrapper ul {
+    height: 60px;
+}
+.mec-single-event .mec-events-meta-group-countdown {
+    box-shadow: 0 20px 50px rgb(0 0 0 / 5%);
+}
+#mec_next_event_details {
+    box-shadow: 0 20px 50px rgb(0 0 0 / 5%);
+}
+ .mec-events-meta-group-countdown {
+    box-shadow: 0 20px 50px rgb(0 0 0 / 5%);
+}
+
+/*Single Page*/
+.mec-container .row.mec-single-event {
+    padding-bottom: 60px;
+}
+.mec-container .mec-single-event .mec-events-meta-group-booking, .mec-container .mec-single-event .mec-frontbox{
+    padding: 30px 30px 20px 30px;
+}
